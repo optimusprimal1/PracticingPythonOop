@@ -37,7 +37,7 @@ class CommisionEmployee(Employee):
         # print('get_GrossSale() = ',self.get_GrossSale())
         return self.get_CommisionRate()*self.get_GrossSale()
 
-commissionEmployee = CommisionEmployee(2000,0.9,"Ahmed", " Hassan","12345")
-commissionEmployee.set_CommisionRate(0.8)
-commissionEmployee.set_GrossSale(4000)
-print('commissionEmployee.Earning() = ',commissionEmployee.Earning())
+# commissionEmployee = CommisionEmployee(2000,0.9,"Ahmed", " Hassan","12345")
+# # commissionEmployee.set_CommisionRate(0.8)
+# # commissionEmployee.set_GrossSale(4000)
+# print('commissionEmployee.Earning() = ',commissionEmployee.Earning())
